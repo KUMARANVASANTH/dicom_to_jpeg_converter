@@ -1,5 +1,5 @@
 # dicom_to_jpeg_converter
-[![Build Status](https://img.shields.io/travis/KUMARANVASANTH/dicom_to_jpeg_converter.svg)](https://travis-ci.org/KUMARANVASANTH/dicom_to_jpeg_converter)
+[![PyPI Version](https://img.shields.io/pypi/v/dicom_to_jpeg_converter.svg)](https://pypi.org/project/dicom_to_jpeg_converter/)
 [![License](https://img.shields.io/github/license/KUMARANVASANTH/dicom_to_jpeg_converter.svg)](https://opensource.org/licenses/MIT)
 
 Convert DICOM files to JPEG format using Python.
