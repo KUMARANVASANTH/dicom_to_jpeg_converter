@@ -14,7 +14,7 @@ pip install dicom_to_jpeg_converter
 
 ## Usage
 ```python
-from dicom_to_jpeg_converter import converter
+from dicom2jpeg import converter
 
 # Specify input and output paths
 folder_path = "/path/to/input_files"
