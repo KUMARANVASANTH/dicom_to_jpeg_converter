@@ -10,7 +10,8 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/KUMARANVASANTH/dicom_to_jpeg_converter',
     license='MIT',
-    packages=find_packages(),
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     install_requires=[
         'pydicom',
         'Pillow',
@@ -26,7 +27,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dicom_to_jpeg_converter=dicom_to_jpeg_converter.converter:main',
+            'dicom_to_jpeg_converter=dicom2jpeg.converter:main',
         ],
     },
 )
+
