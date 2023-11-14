@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='dicom_to_jpeg_converter',
-    version='0.2.0', 
+    version='0.1.0', 
     author='Vasantharan K',
     author_email='vasantharank.learn@gmail.com',
     description='Convert DICOM files to JPEG format using Python',
