@@ -8,7 +8,7 @@ setup(
     description='Convert DICOM files to JPEG format using Python',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/KUMARANVASANTH/dicom_to_jpeg_converter',
+    url='https://github.com/vasantharan/dicom_to_jpeg_converter',
     license='MIT',
     packages=find_packages(where='src'),
     package_dir={'': 'src'},
@@ -27,7 +27,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dicom_to_jpeg_converter=dicom2jpeg.converter:main',
+            'dicom_to_jpeg_converter=converter:main',
         ],
     },
 )
